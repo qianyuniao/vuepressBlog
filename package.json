@@ -1,0 +1,28 @@
+{
+  "name": "vuepressblog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+   " deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianyuniao/vuepressBlog.git"
+  },
+  "keywords": [
+    "wwp1089g"
+  ],
+  "author": "qianyuniao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qianyuniao/vuepressBlog/issues"
+  },
+  "homepage": "https://github.com/qianyuniao/vuepressBlog#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.36"
+  }
+}
